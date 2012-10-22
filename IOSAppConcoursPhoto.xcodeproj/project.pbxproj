@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1237C61635F31B00608069 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1237C51635F31B00608069 /* UIKit.framework */; };
+		CD1237C81635F31B00608069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1237C71635F31B00608069 /* Foundation.framework */; };
+		CD1237CA1635F31B00608069 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1237C91635F31B00608069 /* CoreGraphics.framework */; };
+		CD1237D01635F31B00608069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD1237CE1635F31B00608069 /* InfoPlist.strings */; };
+		CD1237D21635F31B00608069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237D11635F31B00608069 /* main.m */; };
+		CD1237D61635F31B00608069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237D51635F31B00608069 /* AppDelegate.m */; };
+		CD1237D81635F31B00608069 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1237D71635F31B00608069 /* Default.png */; };
+		CD1237DA1635F31B00608069 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1237D91635F31B00608069 /* Default@2x.png */; };
+		CD1237DC1635F31B00608069 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1237DB1635F31B00608069 /* Default-568h@2x.png */; };
+		CD1237DF1635F31B00608069 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */; };
+		CD1237E21635F31B00608069 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */; };
+		CD1237E51635F31B00608069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237E41635F31B00608069 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD1237C11635F31B00608069 /* IOSAppConcoursPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAppConcoursPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1237C51635F31B00608069 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD1237C71635F31B00608069 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD1237C91635F31B00608069 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD1237CD1635F31B00608069 /* IOSAppConcoursPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSAppConcoursPhoto-Info.plist"; sourceTree = "<group>"; };
+		CD1237CF1635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD1237D11635F31B00608069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1237D31635F31B00608069 /* IOSAppConcoursPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSAppConcoursPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		CD1237D41635F31B00608069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1237D51635F31B00608069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1237D71635F31B00608069 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD1237D91635F31B00608069 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD1237DB1635F31B00608069 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD1237DE1635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CD1237E11635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CD1237E31635F31B00608069 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD1237E41635F31B00608069 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1237BE1635F31B00608069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1237C61635F31B00608069 /* UIKit.framework in Frameworks */,
+				CD1237C81635F31B00608069 /* Foundation.framework in Frameworks */,
+				CD1237CA1635F31B00608069 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1237B61635F31B00608069 = {
+			isa = PBXGroup;
+			children = (
+				CD1237CB1635F31B00608069 /* IOSAppConcoursPhoto */,
+				CD1237C41635F31B00608069 /* Frameworks */,
+				CD1237C21635F31B00608069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1237C21635F31B00608069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1237C11635F31B00608069 /* IOSAppConcoursPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1237C41635F31B00608069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1237C51635F31B00608069 /* UIKit.framework */,
+				CD1237C71635F31B00608069 /* Foundation.framework */,
+				CD1237C91635F31B00608069 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1237CB1635F31B00608069 /* IOSAppConcoursPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				CD1237D41635F31B00608069 /* AppDelegate.h */,
+				CD1237D51635F31B00608069 /* AppDelegate.m */,
+				CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */,
+				CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */,
+				CD1237E31635F31B00608069 /* ViewController.h */,
+				CD1237E41635F31B00608069 /* ViewController.m */,
+				CD1237CC1635F31B00608069 /* Supporting Files */,
+			);
+			path = IOSAppConcoursPhoto;
+			sourceTree = "<group>";
+		};
+		CD1237CC1635F31B00608069 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1237CD1635F31B00608069 /* IOSAppConcoursPhoto-Info.plist */,
+				CD1237CE1635F31B00608069 /* InfoPlist.strings */,
+				CD1237D11635F31B00608069 /* main.m */,
+				CD1237D31635F31B00608069 /* IOSAppConcoursPhoto-Prefix.pch */,
+				CD1237D71635F31B00608069 /* Default.png */,
+				CD1237D91635F31B00608069 /* Default@2x.png */,
+				CD1237DB1635F31B00608069 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1237C01635F31B00608069 /* IOSAppConcoursPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1237E81635F31B00608069 /* Build configuration list for PBXNativeTarget "IOSAppConcoursPhoto" */;
+			buildPhases = (
+				CD1237BD1635F31B00608069 /* Sources */,
+				CD1237BE1635F31B00608069 /* Frameworks */,
+				CD1237BF1635F31B00608069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSAppConcoursPhoto;
+			productName = IOSAppConcoursPhoto;
+			productReference = CD1237C11635F31B00608069 /* IOSAppConcoursPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1237B81635F31B00608069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = projetTutoreSRC;
+			};
+			buildConfigurationList = CD1237BB1635F31B00608069 /* Build configuration list for PBXProject "IOSAppConcoursPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD1237B61635F31B00608069;
+			productRefGroup = CD1237C21635F31B00608069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1237C01635F31B00608069 /* IOSAppConcoursPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1237BF1635F31B00608069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1237D01635F31B00608069 /* InfoPlist.strings in Resources */,
+				CD1237D81635F31B00608069 /* Default.png in Resources */,
+				CD1237DA1635F31B00608069 /* Default@2x.png in Resources */,
+				CD1237DC1635F31B00608069 /* Default-568h@2x.png in Resources */,
+				CD1237DF1635F31B00608069 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CD1237E21635F31B00608069 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1237BD1635F31B00608069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1237D21635F31B00608069 /* main.m in Sources */,
+				CD1237D61635F31B00608069 /* AppDelegate.m in Sources */,
+				CD1237E51635F31B00608069 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD1237CE1635F31B00608069 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1237CF1635F31B00608069 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1237DE1635F31B00608069 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1237E11635F31B00608069 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1237E61635F31B00608069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1237E71635F31B00608069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1237E91635F31B00608069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSAppConcoursPhoto/IOSAppConcoursPhoto-Prefix.pch";
+				INFOPLIST_FILE = "IOSAppConcoursPhoto/IOSAppConcoursPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD1237EA1635F31B00608069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSAppConcoursPhoto/IOSAppConcoursPhoto-Prefix.pch";
+				INFOPLIST_FILE = "IOSAppConcoursPhoto/IOSAppConcoursPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1237BB1635F31B00608069 /* Build configuration list for PBXProject "IOSAppConcoursPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1237E61635F31B00608069 /* Debug */,
+				CD1237E71635F31B00608069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1237E81635F31B00608069 /* Build configuration list for PBXNativeTarget "IOSAppConcoursPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1237E91635F31B00608069 /* Debug */,
+				CD1237EA1635F31B00608069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1237B81635F31B00608069 /* Project object */;
+}
