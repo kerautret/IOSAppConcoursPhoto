@@ -18,7 +18,9 @@
 		CD1237DC1635F31B00608069 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1237DB1635F31B00608069 /* Default-568h@2x.png */; };
 		CD1237DF1635F31B00608069 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */; };
 		CD1237E21635F31B00608069 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */; };
-		CD1237E51635F31B00608069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237E41635F31B00608069 /* ViewController.m */; };
+		CD1237E51635F31B00608069 /* IntroController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237E41635F31B00608069 /* IntroController.m */; };
+		CD5787971647F2BF00F9079A /* panneauPubRecto.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5787951647F2BF00F9079A /* panneauPubRecto.png */; };
+		CD5787981647F2BF00F9079A /* panneauPubVerso.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5787961647F2BF00F9079A /* panneauPubVerso.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +39,10 @@
 		CD1237DB1635F31B00608069 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CD1237DE1635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CD1237E11635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CD1237E31635F31B00608069 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD1237E41635F31B00608069 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD1237E31635F31B00608069 /* IntroController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroController.h; sourceTree = "<group>"; };
+		CD1237E41635F31B00608069 /* IntroController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroController.m; sourceTree = "<group>"; };
+		CD5787951647F2BF00F9079A /* panneauPubRecto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panneauPubRecto.png; sourceTree = "<group>"; };
+		CD5787961647F2BF00F9079A /* panneauPubVerso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panneauPubVerso.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +93,9 @@
 				CD1237D51635F31B00608069 /* AppDelegate.m */,
 				CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */,
 				CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */,
-				CD1237E31635F31B00608069 /* ViewController.h */,
-				CD1237E41635F31B00608069 /* ViewController.m */,
+				CD1237E31635F31B00608069 /* IntroController.h */,
+				CD1237E41635F31B00608069 /* IntroController.m */,
+				CD5787931647F2A700F9079A /* Infographie */,
 				CD1237CC1635F31B00608069 /* Supporting Files */,
 			);
 			path = IOSAppConcoursPhoto;
@@ -108,6 +113,15 @@
 				CD1237DB1635F31B00608069 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD5787931647F2A700F9079A /* Infographie */ = {
+			isa = PBXGroup;
+			children = (
+				CD5787951647F2BF00F9079A /* panneauPubRecto.png */,
+				CD5787961647F2BF00F9079A /* panneauPubVerso.png */,
+			);
+			name = Infographie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +181,8 @@
 				CD1237DC1635F31B00608069 /* Default-568h@2x.png in Resources */,
 				CD1237DF1635F31B00608069 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CD1237E21635F31B00608069 /* MainStoryboard_iPad.storyboard in Resources */,
+				CD5787971647F2BF00F9079A /* panneauPubRecto.png in Resources */,
+				CD5787981647F2BF00F9079A /* panneauPubVerso.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +195,7 @@
 			files = (
 				CD1237D21635F31B00608069 /* main.m in Sources */,
 				CD1237D61635F31B00608069 /* AppDelegate.m in Sources */,
-				CD1237E51635F31B00608069 /* ViewController.m in Sources */,
+				CD1237E51635F31B00608069 /* IntroController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +322,7 @@
 				CD1237EA1635F31B00608069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
