@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 projetTutoreSRC. All rights reserved.
 //
 
-#import "IntroController.h"
+#import "StartController.h"
 
-@interface IntroController ()
+@interface StartController ()
 
 @end
 
-@implementation IntroController
+@implementation StartController
 
 - (void)viewDidLoad
 {

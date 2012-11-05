@@ -18,7 +18,7 @@
 		CD1237DC1635F31B00608069 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1237DB1635F31B00608069 /* Default-568h@2x.png */; };
 		CD1237DF1635F31B00608069 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */; };
 		CD1237E21635F31B00608069 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */; };
-		CD1237E51635F31B00608069 /* IntroController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237E41635F31B00608069 /* IntroController.m */; };
+		CD1237E51635F31B00608069 /* StartController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237E41635F31B00608069 /* StartController.m */; };
 		CD45ABBD1648706600E911FB /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD45ABBC1648706600E911FB /* IntroViewController.m */; };
 		CD45ABC01648709700E911FB /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD45ABBF1648709700E911FB /* PhotoViewController.m */; };
 		CD5787971647F2BF00F9079A /* panneauPubRecto.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5787951647F2BF00F9079A /* panneauPubRecto.png */; };
@@ -41,8 +41,8 @@
 		CD1237DB1635F31B00608069 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CD1237DE1635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CD1237E11635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CD1237E31635F31B00608069 /* IntroController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroController.h; sourceTree = "<group>"; };
-		CD1237E41635F31B00608069 /* IntroController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroController.m; sourceTree = "<group>"; };
+		CD1237E31635F31B00608069 /* StartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartController.h; sourceTree = "<group>"; };
+		CD1237E41635F31B00608069 /* StartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartController.m; sourceTree = "<group>"; };
 		CD45ABBB1648706600E911FB /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = ../IntroViewController.h; sourceTree = "<group>"; };
 		CD45ABBC1648706600E911FB /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = ../IntroViewController.m; sourceTree = "<group>"; };
 		CD45ABBE1648709700E911FB /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 				CD1237D51635F31B00608069 /* AppDelegate.m */,
 				CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */,
 				CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */,
-				CD1237E31635F31B00608069 /* IntroController.h */,
-				CD1237E41635F31B00608069 /* IntroController.m */,
+				CD1237E31635F31B00608069 /* StartController.h */,
+				CD1237E41635F31B00608069 /* StartController.m */,
 				CD5787931647F2A700F9079A /* Infographie */,
 				CD1237CC1635F31B00608069 /* Supporting Files */,
 			);
@@ -205,7 +205,7 @@
 			files = (
 				CD1237D21635F31B00608069 /* main.m in Sources */,
 				CD1237D61635F31B00608069 /* AppDelegate.m in Sources */,
-				CD1237E51635F31B00608069 /* IntroController.m in Sources */,
+				CD1237E51635F31B00608069 /* StartController.m in Sources */,
 				CD45ABBD1648706600E911FB /* IntroViewController.m in Sources */,
 				CD45ABC01648709700E911FB /* PhotoViewController.m in Sources */,
 			);

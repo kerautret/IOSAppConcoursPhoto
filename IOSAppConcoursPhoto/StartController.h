@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IntroController : UIViewController{
+@interface StartController : UIViewController{
     UIImageView *myImageViewVerso;
     
 }
