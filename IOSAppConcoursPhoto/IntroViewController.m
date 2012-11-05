@@ -2,7 +2,7 @@
 //  IntroViewController.m
 //  IOSAppConcoursPhoto
 //
-//  Created by Kerautret on 05/11/12.
+//  Created by Kerautret on 06/11/12.
 //  Copyright (c) 2012 projetTutoreSRC. All rights reserved.
 //
 
