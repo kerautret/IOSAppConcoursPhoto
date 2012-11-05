@@ -106,7 +106,6 @@
         <class className="PhotoViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotoViewController.h"/>
             <relationships>
-                <relationship kind="action" name="snapImage:"/>
                 <relationship kind="outlet" name="photoLanch" candidateClass="UIButton"/>
             </relationships>
         </class>
