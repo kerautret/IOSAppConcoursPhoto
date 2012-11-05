@@ -19,10 +19,10 @@
 		CD1237DF1635F31B00608069 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237DD1635F31B00608069 /* MainStoryboard_iPhone.storyboard */; };
 		CD1237E21635F31B00608069 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1237E01635F31B00608069 /* MainStoryboard_iPad.storyboard */; };
 		CD1237E51635F31B00608069 /* StartController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1237E41635F31B00608069 /* StartController.m */; };
-		CD45ABBD1648706600E911FB /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD45ABBC1648706600E911FB /* IntroViewController.m */; };
 		CD45ABC01648709700E911FB /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD45ABBF1648709700E911FB /* PhotoViewController.m */; };
 		CD5787971647F2BF00F9079A /* panneauPubRecto.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5787951647F2BF00F9079A /* panneauPubRecto.png */; };
 		CD5787981647F2BF00F9079A /* panneauPubVerso.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5787961647F2BF00F9079A /* panneauPubVerso.png */; };
+		CDCEC518164887CC000D0DCF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCEC517164887CC000D0DCF /* IntroViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,12 +43,12 @@
 		CD1237E11635F31B00608069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		CD1237E31635F31B00608069 /* StartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartController.h; sourceTree = "<group>"; };
 		CD1237E41635F31B00608069 /* StartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartController.m; sourceTree = "<group>"; };
-		CD45ABBB1648706600E911FB /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = ../IntroViewController.h; sourceTree = "<group>"; };
-		CD45ABBC1648706600E911FB /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = ../IntroViewController.m; sourceTree = "<group>"; };
 		CD45ABBE1648709700E911FB /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		CD45ABBF1648709700E911FB /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		CD5787951647F2BF00F9079A /* panneauPubRecto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panneauPubRecto.png; sourceTree = "<group>"; };
 		CD5787961647F2BF00F9079A /* panneauPubVerso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panneauPubVerso.png; sourceTree = "<group>"; };
+		CDCEC516164887CC000D0DCF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		CDCEC517164887CC000D0DCF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 		CD1237CB1635F31B00608069 /* IOSAppConcoursPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				CD45ABBB1648706600E911FB /* IntroViewController.h */,
-				CD45ABBC1648706600E911FB /* IntroViewController.m */,
+				CDCEC516164887CC000D0DCF /* IntroViewController.h */,
+				CDCEC517164887CC000D0DCF /* IntroViewController.m */,
 				CD45ABBE1648709700E911FB /* PhotoViewController.h */,
 				CD45ABBF1648709700E911FB /* PhotoViewController.m */,
 				CD1237D41635F31B00608069 /* AppDelegate.h */,
@@ -206,8 +206,8 @@
 				CD1237D21635F31B00608069 /* main.m in Sources */,
 				CD1237D61635F31B00608069 /* AppDelegate.m in Sources */,
 				CD1237E51635F31B00608069 /* StartController.m in Sources */,
-				CD45ABBD1648706600E911FB /* IntroViewController.m in Sources */,
 				CD45ABC01648709700E911FB /* PhotoViewController.m in Sources */,
+				CDCEC518164887CC000D0DCF /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  IntroViewController.m
 //  IOSAppConcoursPhoto
 //
-//  Created by Kerautret on 05/11/12.
+//  Created by Kerautret on 06/11/12.
 //  Copyright (c) 2012 projetTutoreSRC. All rights reserved.
 //
 
@@ -13,15 +13,6 @@
 @end
 
 @implementation IntroViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
