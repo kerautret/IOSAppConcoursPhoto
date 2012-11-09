@@ -1,0 +1,3 @@
+En effacant ce fichier, en cas de compression zip du site, le dossier medias risque
+d'etre supprime de l'archive dans certaines conditions... Donc, ne pas le laisser vide.
+jl

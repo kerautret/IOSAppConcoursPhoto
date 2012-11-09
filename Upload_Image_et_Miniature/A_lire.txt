@@ -1,0 +1,4 @@
+Attention : pour adapter ces scripts a vos besoins propres, lire les commentaires
+et positionner correctement les valeurs de constantes precisees en debut des scripts.
+
+Jluc, decembre 2005.
