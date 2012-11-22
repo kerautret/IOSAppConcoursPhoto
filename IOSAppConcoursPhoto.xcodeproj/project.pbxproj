@@ -23,6 +23,17 @@
 		CD5787971647F2BF00F9079A /* panneauPubRecto.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5787951647F2BF00F9079A /* panneauPubRecto.png */; };
 		CD5787981647F2BF00F9079A /* panneauPubVerso.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5787961647F2BF00F9079A /* panneauPubVerso.png */; };
 		CDCEC518164887CC000D0DCF /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCEC517164887CC000D0DCF /* IntroViewController.m */; };
+		CDF7C1B0165ED08A002CEE1D /* FGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7C1AB165ED07C002CEE1D /* FGalleryViewController.m */; };
+		CDF7C1B1165ED08A002CEE1D /* FGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7C1AD165ED07C002CEE1D /* FGalleryPhotoView.m */; };
+		CDF7C1B2165ED08A002CEE1D /* FGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7C1AF165ED07C002CEE1D /* FGalleryPhoto.m */; };
+		CDF7C1B4165ED0F9002CEE1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7C1B3165ED0F9002CEE1D /* QuartzCore.framework */; };
+		CDF7C1B8165ED592002CEE1D /* lava.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDF7C1B5165ED592002CEE1D /* lava.jpeg */; };
+		CDF7C1B9165ED592002CEE1D /* hawaii.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CDF7C1B6165ED592002CEE1D /* hawaii.jpeg */; };
+		CDF7C1BA165ED592002CEE1D /* audi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDF7C1B7165ED592002CEE1D /* audi.jpg */; };
+		CDF7C1BF165ED5AB002CEE1D /* photo-gallery-trashcan.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF7C1BB165ED5AB002CEE1D /* photo-gallery-trashcan.png */; };
+		CDF7C1C0165ED5AB002CEE1D /* photo-gallery-right.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF7C1BC165ED5AB002CEE1D /* photo-gallery-right.png */; };
+		CDF7C1C1165ED5AB002CEE1D /* photo-gallery-left.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF7C1BD165ED5AB002CEE1D /* photo-gallery-left.png */; };
+		CDF7C1C2165ED5AB002CEE1D /* photo-gallery-edit-caption.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF7C1BE165ED5AB002CEE1D /* photo-gallery-edit-caption.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +60,21 @@
 		CD5787961647F2BF00F9079A /* panneauPubVerso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panneauPubVerso.png; sourceTree = "<group>"; };
 		CDCEC516164887CC000D0DCF /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		CDCEC517164887CC000D0DCF /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		CDF7C1A9165ED07C002CEE1D /* FGalleryDelegates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGalleryDelegates.h; sourceTree = "<group>"; };
+		CDF7C1AA165ED07C002CEE1D /* FGalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGalleryViewController.h; sourceTree = "<group>"; };
+		CDF7C1AB165ED07C002CEE1D /* FGalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGalleryViewController.m; sourceTree = "<group>"; };
+		CDF7C1AC165ED07C002CEE1D /* FGalleryPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGalleryPhotoView.h; sourceTree = "<group>"; };
+		CDF7C1AD165ED07C002CEE1D /* FGalleryPhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhotoView.m; sourceTree = "<group>"; };
+		CDF7C1AE165ED07C002CEE1D /* FGalleryPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGalleryPhoto.h; sourceTree = "<group>"; };
+		CDF7C1AF165ED07C002CEE1D /* FGalleryPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhoto.m; sourceTree = "<group>"; };
+		CDF7C1B3165ED0F9002CEE1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDF7C1B5165ED592002CEE1D /* lava.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lava.jpeg; sourceTree = "<group>"; };
+		CDF7C1B6165ED592002CEE1D /* hawaii.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hawaii.jpeg; sourceTree = "<group>"; };
+		CDF7C1B7165ED592002CEE1D /* audi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audi.jpg; sourceTree = "<group>"; };
+		CDF7C1BB165ED5AB002CEE1D /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-trashcan.png"; sourceTree = "<group>"; };
+		CDF7C1BC165ED5AB002CEE1D /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-right.png"; sourceTree = "<group>"; };
+		CDF7C1BD165ED5AB002CEE1D /* photo-gallery-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-left.png"; sourceTree = "<group>"; };
+		CDF7C1BE165ED5AB002CEE1D /* photo-gallery-edit-caption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-edit-caption.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF7C1B4165ED0F9002CEE1D /* QuartzCore.framework in Frameworks */,
 				CD1237C61635F31B00608069 /* UIKit.framework in Frameworks */,
 				CD1237C81635F31B00608069 /* Foundation.framework in Frameworks */,
 				CD1237CA1635F31B00608069 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +95,7 @@
 		CD1237B61635F31B00608069 = {
 			isa = PBXGroup;
 			children = (
+				CDF7C1B3165ED0F9002CEE1D /* QuartzCore.framework */,
 				CD1237CB1635F31B00608069 /* IOSAppConcoursPhoto */,
 				CD1237C41635F31B00608069 /* Frameworks */,
 				CD1237C21635F31B00608069 /* Products */,
@@ -95,6 +123,7 @@
 		CD1237CB1635F31B00608069 /* IOSAppConcoursPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				CDF7C1A8165ED06D002CEE1D /* Gallerie */,
 				CDCEC516164887CC000D0DCF /* IntroViewController.h */,
 				CDCEC517164887CC000D0DCF /* IntroViewController.m */,
 				CD45ABBE1648709700E911FB /* PhotoViewController.h */,
@@ -128,10 +157,31 @@
 		CD5787931647F2A700F9079A /* Infographie */ = {
 			isa = PBXGroup;
 			children = (
+				CDF7C1BB165ED5AB002CEE1D /* photo-gallery-trashcan.png */,
+				CDF7C1BC165ED5AB002CEE1D /* photo-gallery-right.png */,
+				CDF7C1BD165ED5AB002CEE1D /* photo-gallery-left.png */,
+				CDF7C1BE165ED5AB002CEE1D /* photo-gallery-edit-caption.png */,
+				CDF7C1B5165ED592002CEE1D /* lava.jpeg */,
+				CDF7C1B6165ED592002CEE1D /* hawaii.jpeg */,
+				CDF7C1B7165ED592002CEE1D /* audi.jpg */,
 				CD5787951647F2BF00F9079A /* panneauPubRecto.png */,
 				CD5787961647F2BF00F9079A /* panneauPubVerso.png */,
 			);
 			name = Infographie;
+			sourceTree = "<group>";
+		};
+		CDF7C1A8165ED06D002CEE1D /* Gallerie */ = {
+			isa = PBXGroup;
+			children = (
+				CDF7C1A9165ED07C002CEE1D /* FGalleryDelegates.h */,
+				CDF7C1AA165ED07C002CEE1D /* FGalleryViewController.h */,
+				CDF7C1AB165ED07C002CEE1D /* FGalleryViewController.m */,
+				CDF7C1AC165ED07C002CEE1D /* FGalleryPhotoView.h */,
+				CDF7C1AD165ED07C002CEE1D /* FGalleryPhotoView.m */,
+				CDF7C1AE165ED07C002CEE1D /* FGalleryPhoto.h */,
+				CDF7C1AF165ED07C002CEE1D /* FGalleryPhoto.m */,
+			);
+			name = Gallerie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +243,13 @@
 				CD1237E21635F31B00608069 /* MainStoryboard_iPad.storyboard in Resources */,
 				CD5787971647F2BF00F9079A /* panneauPubRecto.png in Resources */,
 				CD5787981647F2BF00F9079A /* panneauPubVerso.png in Resources */,
+				CDF7C1B8165ED592002CEE1D /* lava.jpeg in Resources */,
+				CDF7C1B9165ED592002CEE1D /* hawaii.jpeg in Resources */,
+				CDF7C1BA165ED592002CEE1D /* audi.jpg in Resources */,
+				CDF7C1BF165ED5AB002CEE1D /* photo-gallery-trashcan.png in Resources */,
+				CDF7C1C0165ED5AB002CEE1D /* photo-gallery-right.png in Resources */,
+				CDF7C1C1165ED5AB002CEE1D /* photo-gallery-left.png in Resources */,
+				CDF7C1C2165ED5AB002CEE1D /* photo-gallery-edit-caption.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF7C1B0165ED08A002CEE1D /* FGalleryViewController.m in Sources */,
+				CDF7C1B1165ED08A002CEE1D /* FGalleryPhotoView.m in Sources */,
+				CDF7C1B2165ED08A002CEE1D /* FGalleryPhoto.m in Sources */,
 				CD1237D21635F31B00608069 /* main.m in Sources */,
 				CD1237D61635F31B00608069 /* AppDelegate.m in Sources */,
 				CD1237E51635F31B00608069 /* StartController.m in Sources */,

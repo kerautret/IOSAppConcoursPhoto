@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FGalleryViewController.h"
 
-@interface IntroViewController : UIViewController
+
+@interface IntroViewController : UITableViewController<FGalleryViewControllerDelegate>{
+    NSArray *localCaptions;
+    NSArray *localImages;
+    NSArray *networkCaptions;
+    NSArray *networkImages;
+	FGalleryViewController *localGallery;
+    FGalleryViewController *networkGallery;
+    
+}
+
+
+
+
 
 @end
