@@ -89,30 +89,59 @@
                     <connections>
                         <segue destination="BsD-bQ-Ey4" kind="relationship" relationship="viewControllers" id="3kZ-0t-JB0"/>
                         <segue destination="Kcg-ds-xUp" kind="relationship" relationship="viewControllers" id="GM7-aj-YMV"/>
+                        <segue destination="YHK-AZ-AGr" kind="relationship" relationship="viewControllers" id="UET-9o-GF2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLJ-lA-Ck5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="784" y="144"/>
         </scene>
+        <!--Table View Controller - Root View Controller-->
+        <scene sceneID="MWS-j1-nT1">
+            <objects>
+                <tableViewController id="H5l-Lb-Vd1" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HLj-gc-Cf9">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="aR3-yG-Utf">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="osF-uY-oyv"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="psk-6n-BXW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1942" y="1340"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="oTH-c6-bKE">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="YHK-AZ-AGr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="uUt-l3-g36"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hMB-4N-IDo">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="H5l-Lb-Vd1" kind="relationship" relationship="rootViewController" id="ZL2-ue-dZv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="853-nB-9c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1408" y="1340"/>
+        </scene>
     </scenes>
     <resources>
         <image name="panneauPubRecto.png" width="640" height="960"/>
     </resources>
-    <classes>
-        <class className="IntroViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/IntroViewController.h"/>
-        </class>
-        <class className="PhotoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotoViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="photoLanch" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="StartController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StartController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
